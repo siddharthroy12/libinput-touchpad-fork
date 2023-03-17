@@ -1,5 +1,6 @@
-libinput
-========
+# libinput
+
+# THIS IS A FORK OF TO FIX A ISSUE WITH MY LAPTOP'S TOUCHPAD
 
 libinput is a library that provides a full input stack for display servers
 and other applications that need to handle input devices provided by the
@@ -11,8 +12,7 @@ provide the common set of functionality that users expect. Input event
 processing includes scaling touch coordinates, generating
 relative pointer events from touchpads, pointer acceleration, etc.
 
-User documentation
-------------------
+## User documentation
 
 Documentation explaining features available in libinput is available
 [here](https://wayland.freedesktop.org/libinput/doc/latest/features.html).
@@ -21,9 +21,7 @@ This includes the [FAQ](https://wayland.freedesktop.org/libinput/doc/latest/faqs
 and the instructions on
 [reporting bugs](https://wayland.freedesktop.org/libinput/doc/latest/reporting-bugs.html).
 
-
-Source code
------------
+## Source code
 
 The source code of libinput can be found at:
 https://gitlab.freedesktop.org/libinput/libinput
@@ -34,8 +32,7 @@ https://www.freedesktop.org/wiki/Software/libinput/
 Build instructions:
 https://wayland.freedesktop.org/libinput/doc/latest/building.html
 
-Reporting Bugs
---------------
+## Reporting Bugs
 
 Bugs can be filed on freedesktop.org GitLab:
 https://gitlab.freedesktop.org/libinput/libinput/issues/
@@ -46,8 +43,7 @@ of the input device and/or the event sequence in question.
 See https://wayland.freedesktop.org/libinput/doc/latest/reporting-bugs.html
 for more info.
 
-Documentation
--------------
+## Documentation
 
 - Developer API documentation: https://wayland.freedesktop.org/libinput/doc/latest/development.html
 - High-level documentation about libinput's features:
@@ -63,8 +59,7 @@ real-world (yet simple) example on how to use libinput.
 - A commandline debugging tool: https://gitlab.freedesktop.org/libinput/libinput/tree/main/tools/libinput-debug-events.c
 - A GTK application that draws cursor/touch/tablet positions: https://gitlab.freedesktop.org/libinput/libinput/tree/main/tools/libinput-debug-gui.c
 
-License
--------
+## License
 
 libinput is licensed under the MIT license.
 
@@ -78,7 +73,6 @@ libinput is licensed under the MIT license.
 See the [COPYING](https://gitlab.freedesktop.org/libinput/libinput/tree/main/COPYING)
 file for the full license information.
 
-About
------
+## About
 
-Documentation generated from git commit [__GIT_VERSION__](https://gitlab.freedesktop.org/libinput/libinput/commit/__GIT_VERSION__)
+Documentation generated from git commit [**GIT_VERSION**](https://gitlab.freedesktop.org/libinput/libinput/commit/__GIT_VERSION__)
